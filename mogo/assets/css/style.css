@@ -147,6 +147,11 @@ hr {
     text-transform: uppercase;
 }
 
+
+.nav.active {
+    display: block;
+}
+
 .nav__link {
     display: inline-block;
     vertical-align: top;
@@ -210,6 +215,10 @@ hr {
     right: 24px;
     z-index: 1;
 
+}
+
+.nav-toggle {
+    outline: 0;
 }
 
 .nav-toggle__item {
